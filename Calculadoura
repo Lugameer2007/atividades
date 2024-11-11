@@ -1,0 +1,31 @@
+programa {
+  funcao inicio(){
+    real a, b
+    inteiro(opicao, 1: soma, 2: subtracao, 3: multiplicacao, 4: divsao, 5: sair)
+    faca
+    {
+    escreva("Digite um numero")
+    leia(op)
+    se( 1 == soma)
+    {
+      escreva("Voce digitou soma:", result)
+    }
+    se(2 == subtracao)
+    {
+      escreva("Voce digitou subtração:", result)
+    }
+    senao se(3 == multiplicacao)
+    {
+      escreva("Voce digitou multiplicacao:", result)
+    }
+    senao se(4 == divisao)
+    {
+      escreva("Voce digitou 4 = divisão:", result)
+    }
+    senao(5 == sair)
+    {
+      escreva("Voce digitou a opiçao sair")
+    }  
+  }enquanto("O usuario nao apertar em sair")
+}
+}
