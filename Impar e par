@@ -1,0 +1,22 @@
+programa {
+  funcao inicio(){
+    inteiro a, positivo, imprima
+    faca
+    {
+    escreva("Digite o primeiro valor:")
+    leia(a)
+    pare(a, "é impar", imprima)
+    se(a, "é impar")
+    {
+      escreva(a, "é impar")
+    }
+    pare(a, "é par", imprima)
+    {
+    se(a, "é par")
+    {
+      escreva(a, "é par")
+    }
+    }enquanto("numero impar e numero par")
+  }
+}
+}
